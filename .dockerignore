@@ -1,0 +1,40 @@
+# Ignore virtual environment
+venv/
+ENV/
+env/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore notebooks and large data files
+*.ipynb
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git and editor configs
+.git/
+.gitignore
+*.swp
+*.swo
+*.bak
+
+# Ignore logs and artifacts
+*.log
+*.tmp
+*.out
+
+# Optional: ignore model weights or artifacts if not needed inside the container
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.onnx
